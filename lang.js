@@ -63,7 +63,7 @@ const gif = document.getElementById('gif');
 
   function yesClick(yesBtn) {
     gif.src = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNm56dWNmY2ZrMHA4cHRta3R0cXBhN2l2dHY4cGw5ZnlwMnBzeWpjZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/QEN54dmAJuTF0wBWXz/giphy.gif";
-    question.textContent = "Anh cũng yêu em nhìu moa moa💗";
+    question.innerHTML = "Anh cũng yêu em nhìu moa moa💗<br>💗Nguyễn Thị Ngọc Huyền💗";
     btnContainer.innerHTML = "";
   }
 
